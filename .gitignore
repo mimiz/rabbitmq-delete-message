@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.history/
+old/
+backups/
+coverage/
+.vscode/
+.nyc_output/
+.env.local
+data-client-rabbitmq/

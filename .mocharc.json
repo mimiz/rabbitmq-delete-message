@@ -1,0 +1,8 @@
+{
+    "extension": ["ts"],
+    "diff": true,
+    "require": [
+        "ts-node/register", "source-map-support/register"
+    ]
+
+}

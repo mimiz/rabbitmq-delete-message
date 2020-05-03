@@ -1,0 +1,1 @@
+export { deleteMessage } from './deleteMessage';
