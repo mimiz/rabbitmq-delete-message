@@ -21,9 +21,9 @@ async function createChannel(serverURL: string): Promise<amqp.ConfirmChannel> {
   if (!connection) {
     connection = await amqp.connect(serverURL);
   }
-  if (!channel) {
-    channel = await connection.createConfirmChannel();
-  }
+
+  channel = await connection.createConfirmChannel();
+
   return channel;
 }
 
