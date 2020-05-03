@@ -1,6 +1,6 @@
 {
   "name": "rabbitmq-delete-message",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A tool to delete a message from a queue in RabbitMQ",
   "main": "build/index.js",
   "author": {
