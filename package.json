@@ -1,6 +1,6 @@
 {
   "name": "rabbitmq-delete-message",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A tool to delete a message from a queue in RabbitMQ",
   "main": "build/index.js",
   "author": {
@@ -12,7 +12,11 @@
     "type": "git",
     "url": "git+https://github.com/mimiz/rabbitmq-delete-message.git"
   },
-  "keywords": ["RabbitMQ", "event", "message"],
+  "keywords": [
+    "RabbitMQ",
+    "event",
+    "message"
+  ],
   "types": "build/index.d.js",
   "license": "MIT",
   "files": [
