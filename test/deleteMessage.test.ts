@@ -145,7 +145,7 @@ describe('Delete message', () => {
       await deleteMessage(serverURL, queueName, messageId);
     } catch (error) {
       /** THEN */
-      expect(error.message).to.equal('Message is not defined or not valid, it should have a messageId');
+      expect(error.message).to.equal('Message is not valid, it should have a messageId');
     }
   });
 
