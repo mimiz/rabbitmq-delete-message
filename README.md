@@ -64,4 +64,4 @@ So you can override those values by setting environment variables.
 
 ## License
 
-[MIT]()
+[MIT](https://raw.githubusercontent.com/mimiz/rabbitmq-delete-message/master/LICENSE.md)
